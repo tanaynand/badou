@@ -21,11 +21,11 @@
     "cordova-plugin-splashscreen",
     "com.ionic.keyboard",
     {
-      "locator": "https://github.com/dubcanada/phonegap-googlemaps-plugin.git",
+      "locator": "https://github.com/wf9a5m75/phonegap-googlemaps-plugin.git",
       "id": "plugin.google.maps",
       "variables": {
-        "API_KEY_FOR_ANDROID": "AIzaSyBRifOFos5oP0XT4TjLTZl-eFJll0mCzYs",
-        "API_KEY_FOR_IOS": "AIzaSyBUKfQFsKoWcFIrRE1MknBszdm37ZK6JYM"
+        "API_KEY_FOR_ANDROID": "????",
+        "API_KEY_FOR_IOS": "????"
       }
     }
   ],

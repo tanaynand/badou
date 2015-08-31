@@ -4,7 +4,7 @@ Starter using **Google Maps Native SDK v2** and **[Ionic Framework](http://ionic
 <img src="https://cloud.githubusercontent.com/assets/1680157/9290919/b8dc1e5c-437a-11e5-8c91-e047e4810351.png">
 
 
-Special thanks to **[wf9a5m75](https://github.com/wf9a5m75/)** for create the plugin used in this integration and **[Phenome](https://github.com/Phenome/)**, **[Nipher](https://github.com/Nipher/)** and **[dubcanada](https://github.com/dubcanada/)** to fix some problems with Cordova versions and all collaborators of Ionic Framework and Cordova Project.
+Special thanks to **[wf9a5m75](https://github.com/wf9a5m75/)** for create the plugin used in this integration and all collaborators of Ionic Framework, Cordova Project and Cordova Plugins.
 
 ## Dependencies
 
@@ -19,7 +19,7 @@ Special thanks to **[wf9a5m75](https://github.com/wf9a5m75/)** for create the pl
 For begin, clone this project and run the following commands in your terminal:
 
 ```ssh
-$ cd ionic-gmaps-starter && npm install
+$ cd ionic-google-maps-starter && npm install
 ```
 
 When npm installation finish, you need put your credentials API_KEY_FOR_ANDROID and API_KEY_FOR_IOS generated in [Google Console](https://console.developers.google.com) inside the `package.json` file.
@@ -68,7 +68,7 @@ $ ionic run android
 
 ## Observations
 
-This starter are using the dubcanada's version of plugin *phonegap-googlemaps-plugin* that you can found in [dubcanada/phonegap-googlemaps-plugin](https://github.com/dubcanada/phonegap-googlemaps-plugin).
+This starter are using the wf9a5m75's version of plugin *phonegap-googlemaps-plugin* that you can found in [wf9a5m75/phonegap-googlemaps-plugin](https://github.com/wf9a5m75/phonegap-googlemaps-plugin).
 
 ## License
 
