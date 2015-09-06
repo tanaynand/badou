@@ -59,6 +59,9 @@ But, if you want run inside a Android Emulator, please read my considerations in
 $ ionic run android
 ```
 
+**PROTIP:** If you want use this starter with Crosswalk, check the [wiki of plugin](https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Tutorial-for-CrossWalk-Webview-Plugin-%28Android%29).
+
+
 ## Screenshots
 
 <img src="https://cloud.githubusercontent.com/assets/1680157/9290913/a6eb28a0-437a-11e5-8a8f-1571b9f73308.jpg" width="20%">
