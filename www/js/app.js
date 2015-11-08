@@ -3,9 +3,9 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-var app = angular.module('starter', ['ionic'])
+angular.module('starter', ['ionic']) //took out 'starter.controllers'
 
-app.run(function($ionicPlatform) {
+.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -69,7 +69,7 @@ app.run(function($ionicPlatform) {
 
                 // Defining event for each marker
                 marker.on("click", function() {
-                    alert(marker.get('marker').title);
+                    $state.go("profile")
                 });
 
             });
@@ -83,13 +83,26 @@ app.run(function($ionicPlatform) {
   });
 });
 
-.config(function($stateProvider, $urlRouterProvider) {
+//Wonder if this is going to crash the app
+/*app.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('map', {
             url: '/map',
             templateUrl: 'templates/map.html',
             controller: 'MapCtrl'
+        })        
+        .state('home', {
+            url: '/home',
+            templateUrl: 'templates/home.html',
+            controller: 'HomeCtrl'
+        })
+        .state('profile', {
+            url: '/profile',
+            templateUrl: 'templates/profile.html',
+            controller: 'ProfileCtrl'
         })
 
     $urlRouterProvider.otherwise('/map');
-});
+});*/
+
+
